@@ -158,7 +158,7 @@ If you're getting error messages about an unknown scope, you can try this:
   Number HK_Basement_Setpoint "Basement Setpoint" (g_HK_Basement_TSTAT) [ "TargetTemperature" ]
   ```
 
-Currently the follwoing Tags are supported (also depending on Googles API capabilities):
+Currently the following Tags are supported (also depending on Googles API capabilities):
 * ["Lighting"]
 * ["Switchable"]
 * ["CurrentTemperature"]
@@ -195,7 +195,7 @@ Here are some example voice commands:
 
 ## Logging & Debugging
 
-To check your deployed openhHAB Google Cloud function app logs and debugging use the follwoing command:
+To check your deployed openHAB Google Cloud function app logs and debugging use the following command:
 ```
 gcloud beta functions logs read openhabGoogleAssistant
 ```
